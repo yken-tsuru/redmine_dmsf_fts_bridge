@@ -20,10 +20,10 @@ require_relative 'lib/redmine_dmsf_fts_bridge/full_text_search'
 
 Redmine::Plugin.register :redmine_dmsf_fts_bridge do
   name 'DMSF Full Text Search Bridge'
-  url 'https://github.com/redmine-plugins/redmine_dmsf_fts_bridge'
-  author 'Redmine Community'
+  url 'https://github.com/yken-tsuru/redmine_dmsf_fts_bridge'
+  author 'Yken Tsuru'
   description 'Bridge plugin for integrating Redmine DMSF with Full Text Search plugin'
-  version '1.0.0'
+  version '0.1.0'
 
   requires_redmine version_or_higher: '6.1.0'
 end
